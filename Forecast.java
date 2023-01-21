@@ -182,8 +182,6 @@ public void printToFile(String file) {
 	    
 	    System.setOut(notInFile);
         System.out.println("File successfully edited");
-        
-        //The source that gave me the idea of using "System.setOut()" was GeeksForGeeks//
 	}
 	
 	catch (IOException ex) {
